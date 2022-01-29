@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+}
+.container{
+    width: 100%;
+    background: #c31432;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.navbar{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar--item{
+    height: 100%;
+    width: 10%;
+    list-style: none;
+}
+.navbar--item a{
+    text-align: center;
+    color: wheat;
+    text-decoration: none;
+    display: block;
+    line-height: 2;
+
+}
+.banner{
+    color: white;
+    height: 75vh;
+    width: 100%;
+    display: flex;
+}
+.banner--text{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner--text h1{
+    font-size: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.banner img{
+    width: 60%;
+}
+.about-me{
+    font-size: 30px;
+    display: flex;
+    width: 100%;
+    text-align: justify;
+    color: white;
+}
+.about-me img{
+    border-radius: 50%;
+}
+.tecnologias{
+    font-size: 30px;
+    background: white;
+}
+.tecnologias-fotos{
+    display: grid;
+    grid-template-rows: 200px 200px;
+    grid-template-columns: repeat(5, 1fr);
+}
+.tecnologias img{
+    width: 60%;
+    justify-self: center;
+    align-self: center;
+}
+.proyects{
+    background: white;
+}
+.proyects h2{
+    font-size: 30px;
+}
+.proyects-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 300px);
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    min-height: 250px;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background: rgb(241, 241, 241);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: justify;
+}
+.about-me a{
+    color: white;
+}
+.contact{
+    margin-top: 30px;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact img{
+    width:50px;
+}
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .card button a{
+      color: white;
+      text-decoration: none;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  .arrow{
+      background: white;
+      width: 100%;
+      display: flex;
+      justify-content:end;
+  }
+  .arrow img{
+      width: 50px;
+  }
+  .about-me-text h2, .proyects h2, .tecnologias h2{
+      text-align: center;
+  }
+  .about-me-text{
+      padding: 50px;
+  }
